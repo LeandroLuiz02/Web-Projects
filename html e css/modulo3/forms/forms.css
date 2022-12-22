@@ -1,0 +1,18 @@
+body {
+    background-color: #111;
+    color: #eee;
+}
+
+h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#buttom {
+    margin-top: 10px;
+}
+
+.check_aceite:hover {
+    color: #eae;
+    text-decoration: underline;
+}

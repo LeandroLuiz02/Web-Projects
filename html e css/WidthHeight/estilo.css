@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #111;
+    color: #eee;
+}
+
+.exemplo {
+    background-color: #000;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+.exemplo:hover { /* mouse em cima*/
+    background-color: #55550f;
+}
+
+.exemplo:visited { 
+    color: pink;
+}

@@ -1,0 +1,11 @@
+body {
+    background-color: #222;
+    color: #eee;
+}
+
+.exemplo {
+    border: 1px solid #0f0;
+    /* cima, direita, baixo, esquerda (sendido horario */
+    padding: 5px 50px 5px 10px;
+    margin: 5px;
+}

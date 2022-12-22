@@ -1,0 +1,33 @@
+/* #id é único
+   .class é compartilhado */
+
+#main-head {
+    color: #757500;
+    font-size: 45px;
+}
+div{
+    background-color: #ff5;
+    /* border: tamanho estilo cor */
+    border: 5px solid #aa4;
+    border-radius: 55px;
+    width: 100px;
+    height: 100px;
+}
+img {
+    border: 5px solid #757500;
+    border-radius: 120px;
+}
+p {
+    color: white;
+}
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+dd {
+    color: rgb(255, 255, 143);
+}
+
+div:hover {
+    background-color: #fff;
+}

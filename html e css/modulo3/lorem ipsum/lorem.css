@@ -1,0 +1,20 @@
+body {
+    background-color: #222;
+    color: #eee;
+}
+
+h1 {
+    color: #f11;
+    font-weight: bold;
+    border-bottom: 5px solid #f11;
+    width: max-content;
+}
+
+p {
+    color: #fff;
+    font-family:'Silkscreen', cursive, helvetica, Arial;
+    text-align: center;
+    
+    /* X and Y offsets, blur size and color */
+    text-shadow: 0 0 10px #f00;
+}
