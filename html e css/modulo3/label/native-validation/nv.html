@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label</title>
+
+    <link rel="stylesheet" href="nv.css">
+</head>
+<body>
+    <!-- required, minlenth, maxlenth, para numeros = (step, min, max), data = (min, max) -->
+    <!-- CRIAR O PRÓPRIO PADRÃO: pattern -->
+
+    <!-- hidden : para dados passados pela url (get) que devem ser escondidos do usuario -->
+    <!-- type file : da pra especificar o tipo de arquivo (accept="image/*") -- lembrar do enctype-->
+
+    <form action="action.php" method="get">
+        <fieldset>
+            <legend>DADOS PESSOAIS</legend>
+            <label>
+                Primeiro nome: <br>
+                <input type="text" name="firstname" required minlength="2" maxlength="20"/>
+            </label> <br>
+            <label>
+                Último nome: <br>
+                <input type="text" name="lastname" required minlength="2" maxlength="20">
+            </label> <br>
+            <label>
+                Data de nascimento: <br>
+                <input type="date" name="birthdate" required max="2004-12-23"/>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>DADOS DA EMPRESA</legend>
+            <label>
+                Nome da empresa: <br>
+                <input type="text" name="companyname"/>
+            </label> <br>
+
+            <label>
+                Cargo: <br>
+                <input type="text" name="companyjobtitle">
+            </label> <br>
+        </fieldset>    
+
+        <input type="submit" value="Cadastrar"> <br>
+    </form>
+</body>
+</html>
