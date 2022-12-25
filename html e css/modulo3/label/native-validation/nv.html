@@ -15,15 +15,17 @@
     <!-- hidden : para dados passados pela url (get) que devem ser escondidos do usuario -->
     <!-- type file : da pra especificar o tipo de arquivo (accept="image/*") -- lembrar do enctype-->
 
+    <h1>Header text</h1>
+
     <form action="action.php" method="get">
         <fieldset>
             <legend>DADOS PESSOAIS</legend>
             <label>
-                Primeiro nome: <br>
+                Primeiro nome:* <br>
                 <input type="text" name="firstname" required minlength="2" maxlength="20"/>
             </label> <br>
             <label>
-                Último nome: <br>
+                Último nome:* <br>
                 <input type="text" name="lastname" required minlength="2" maxlength="20">
             </label> <br>
             <label>
@@ -44,7 +46,7 @@
                 <input type="text" name="companyjobtitle">
             </label> <br>
         </fieldset>    
-
+        <p>campos marcados por * são obrigatórios</p>
         <input type="submit" value="Cadastrar"> <br>
     </form>
 </body>
