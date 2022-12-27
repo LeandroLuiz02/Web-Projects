@@ -1,0 +1,9 @@
+body {
+    font-family: courier;
+}
+
+#box {
+    width: 25rem;
+    height: 1rem;
+    background-color: rgb(247, 0, 255);
+}

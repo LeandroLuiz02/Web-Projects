@@ -1,0 +1,12 @@
+div {
+    height: 100vh; /* ainda tem o vw, o vmin e o vmax (é recomandado não usar os dois últimos) */
+    background-color: #aaa;
+}
+
+div div {
+    height: inherit;
+    width: 50%;
+    background-color: #666;
+    border: 2px solid;
+    border-radius: 1rem;
+}
