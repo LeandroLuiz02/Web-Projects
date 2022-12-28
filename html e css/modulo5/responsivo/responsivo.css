@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+}
+
+#center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 3px;
+    text-align: center;
+}
+
+#block {
+    background-color: rgb(92, 92, 92);
+    width: 80vw;
+    height: 100vh;
+    border-radius: 3vh;
+    margin-top: 5vh;
+    float: left;
+}
+
+#leftBar {
+    margin-left: 82vw;
+    background-color: rgb(63, 63, 63);
+    width: 15vw;
+    height: 100vh;
+    border-radius: 3vh;
+    margin-top: 5vh;
+}
+
+#back {
+    background-color: rgb(179, 179, 179);
+    height: 110vh;
+    width: 110vw;
+}
