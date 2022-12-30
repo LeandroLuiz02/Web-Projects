@@ -15,5 +15,6 @@ h5 {
 .check_aceite:hover {
     color: #eae;
     text-decoration: underline;
+    cursor: pointer;
 }
 
