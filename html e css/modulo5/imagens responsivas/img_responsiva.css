@@ -1,5 +1,25 @@
-img {
-    width: 1000px;
-    height: 400px;
-    object-fit:contain;
+body {
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;    
 }
+
+img {
+    width: 600px;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: black;
+        font-size: 12px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+/* 
+$media only print/screen {
+
+} */
+
