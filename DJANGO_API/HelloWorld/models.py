@@ -1,6 +1,6 @@
 from django.db import models
 
-class Robot(models.Model):
+class Robot(models.Model): #classe modelo
     nome = models.CharField(max_length=30)
     RobotId = models.CharField(max_length=9)
 
