@@ -1,0 +1,1 @@
+this.tchau = 'flw té mais'
